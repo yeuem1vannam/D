@@ -1,20 +1,20 @@
 source 'https://rubygems.org'
 
 ruby '2.2.1'
-gem 'rails', '4.2.1'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
+gem 'rails', '4.2.8'
+gem 'sass-rails', '~> 5.0', '>= 5.0.3'
+gem 'uglifier', '>= 2.7.1'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'bootstrap-sass'
-gem 'devise'
-gem 'devise_invitable'
-gem 'haml-rails'
+gem 'jquery-rails', '>= 4.0.3'
+gem 'turbolinks', '>= 2.5.3'
+gem 'jbuilder', '~> 2.2', '>= 2.2.16'
+gem 'bootstrap-sass', '>= 3.3.4.1'
+gem 'devise', '>= 3.5.1'
+gem 'devise_invitable', '>= 1.5.0'
+gem 'haml-rails', '>= 0.9.0'
 gem 'mysql2'
-gem 'sendgrid'
-gem 'simple_form'
+gem 'sendgrid', '>= 1.2.0'
+gem 'simple_form', '>= 3.1.0'
 gem 'thin'
 gem "reablr", path: "../Reablr"
 
@@ -25,7 +25,7 @@ group :development do
   gem 'guard-rails'
   gem 'guard-rspec'
   gem 'html2haml'
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.1.0'
   gem 'rails_layout'
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
@@ -37,13 +37,13 @@ end
 
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.1', '>= 2.1.2'
   gem 'spring'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.5.0'
   gem 'faker'
   gem 'pry-rails'
   gem 'pry-rescue'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.2.2'
   gem 'rubocop'
 end
 
