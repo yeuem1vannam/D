@@ -1,20 +1,20 @@
 source 'https://rubygems.org'
 
 ruby '2.2.1'
-gem 'rails', '4.2.1'
-gem 'sass-rails', '~> 5.0'
+gem 'rails', '6.0.3.5'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks'
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.0.3'
+gem 'turbolinks', '>= 2.5.3'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
-gem 'devise'
-gem 'devise_invitable'
-gem 'haml-rails'
+gem 'devise', '>= 4.7.0'
+gem 'devise_invitable', '>= 1.6.0'
+gem 'haml-rails', '>= 0.9.0'
 gem 'mysql2'
 gem 'sendgrid'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 gem 'thin'
 gem "reablr", path: "../Reablr"
 
@@ -37,13 +37,13 @@ end
 
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.1', '>= 2.1.2'
   gem 'spring'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.5.0'
   gem 'faker'
   gem 'pry-rails'
   gem 'pry-rescue'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.5.0'
   gem 'rubocop'
 end
 
